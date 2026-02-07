@@ -18,11 +18,15 @@
 </head>
 <body>
 
-<audio autoplay loop>
+<button onclick="playMusic(this)">▶️ Play music</button>
+
+<audio id="bgMusic" loop>
   <source src="music.mp3" type="audio/mpeg">
 </audio>
 
-<h1>Happy Valentine’s Day 💘</h1>
+<br>
+
+<h1>Our memory lane  💘</h1>
 <p>Forever grateful for you 🫶</p>
 
 <img src="pics1.jpeg">
@@ -35,5 +39,14 @@
 I wish to see you achieve everything you dreamed about  ⭐
 </p>
 
+<script>
+function playMusic(btn) {
+  const music = document.getElementById("bgMusic");
+  music.play();
+  btn.innerText = "💖 Playing";
+}
+</script>
+  
 </body>
 </html>
+
