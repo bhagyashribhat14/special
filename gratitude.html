@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thank you for being you 💕</title>
+  <style>
+    body {
+      text-align: center;
+      background: #fff0f5;
+      font-family: 'Georgia', serif;
+      padding-top: 80px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 22px;
+      margin: 15px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+    }
+    #noBtn {
+      position: absolute;
+      background: #999;
+      color: white;
+    }
+    #yesBtn {
+      background: #ff4d6d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<h2>I realised I haven't appreciated you much! 💌</h2>
+
+<p style="max-width:600px;margin:auto;">
+Thank you for being my calm, my laughter, my safe place.  
+Thank you for not making me worry about you liking someone's posts and feeds. 
+Thank you for always listening to me with patience.
+Thank you for asking to me call you once I reach home.
+Thank you for sending me random flowers and food they made my day.
+Thank you for supporting me , standing with me , teaching me.
+Thank you for just being there on days I do not need anyone.
+Thank you for flying to India for me.
+Thank you protecting me .
+Thank you for praising and respecting me in my absence. 
+Thank you for always wiping my tears and drools. 
+Thank you for cooking for me those yummy tomato rice. 
+Thank you for not making me worry when you go out with friends.
+Thank you for always speaking high of me.
+Thank you for being you around me , which let me be me around you. 
+Thank you for always telling me how beautiful I am.
+Thank you for proudly loving me in front of everyone. 
+Thank you for picking up my calls even when you are in deep sleep.
+Thank you for silently being there for me. 
+Thank you for random jokes and funny faces that you make which really makes me laugh. 
+Thank you for making my inner child feel safe again.
+Thank you for showering so much love on me. I felt I can be loved too. 
+There are so many things I am grateful for and so many things I will forever cherish.
+I wanted to ask something.
+</p>
+
+<h3>Will you be my family star? ⭐💖</h3>
+
+<button id="yesBtn" onclick="location.href='memories.html'">
+  YES 💕
+</button>
+
+<button id="noBtn" onmouseover="moveNo()">
+  NO 😜
+</button>
+
+<script>
+function moveNo() {
+  const btn = document.getElementById("noBtn");
+  btn.style.left = Math.random() * 80 + "vw";
+  btn.style.top = Math.random() * 80 + "vh";
+}
+</script>
+
+</body>
+</html>
